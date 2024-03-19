@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+}
+.navbar{
+    background-color: rgb(90, 189, 228);
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+height: 90px;
+}
+
+ ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    margin: 20px 30px;
+}
+a{
+   text-decoration: none;
+    color: white; 
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+    
+body{
+    background-image: url(coding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
