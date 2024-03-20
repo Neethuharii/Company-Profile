@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
-.navbar{
+
+.navbar {
     background-color: black;
     height: 90px;
     display: flex;
@@ -11,19 +12,20 @@
 }
 
 
- ul li{
+ul li {
     display: inline-block;
     text-decoration: none;
     font-size: 18px;
     margin: 30px 30px;
 }
-a{
-   text-decoration: none;
-    color: white; 
+
+a {
+    text-decoration: none;
+    color: white;
     font-style: Helvetica;
 }
 
-.background_gallery{
+.background_gallery {
     display: flex;
     justify-content: center;
     height: 280px;
@@ -31,49 +33,57 @@ a{
     size: 100%;
     background-size: 100% auto;
 }
-.background_gallery img{
+
+.background_gallery img {
     width: 56%;
 
 }
-.container{
+
+.container {
     text-align: center;
-   
+
 }
+
 .container h1 {
-   margin-top: 2%;
-    top: 50px; 
+    margin-top: 2%;
+    top: 50px;
     color: rgb(64, 63, 63);
     font-size: 32px;
-    
+
 }
-.container p{
-  
+
+.container p {
+
     margin-top: 2%;
     color: rgb(64, 63, 63);
     font-size: 15px;
 }
+
 .card-container {
     display: flex;
     justify-content: space-between;
-    padding-left: 55px;
-    padding-right: 44px;
+    padding: 55px;
+
 
 }
+
 .card {
-  
-    width: 345px;
+
+    width: 300px;
     margin-top: 20px;
+
     border: 1px solid #ccc;
-  
+
 }
 
-.card img{
-width: 80%;
-height:200px;
-margin: 20px;
+.card img {
+    width: 100%;
+    height: 200px;
+    /* margin: 20px; */
 }
+
 .card-description h1 {
-    margin-top: -5px;
+    margin-top: 5px;
     padding-left: 22px;
     font-style: Helvetica;
     font-size: 20px;
@@ -84,30 +94,34 @@ margin: 20px;
     color: grey;
     padding: 20px;
 }
-.know_vdo{
+
+.know_vdo {
     background-color: #ccc;
-    
+
 }
-.know-us{
+
+.know-us {
     margin-top: 37px;
     padding-left: 77px;
 
-  
+
 }
-.know-us p{
+
+.know-us p {
     margin-top: 20px;
     line-height: 24px;
-   
+
 
 }
 
 .video {
-        padding-left: 584px;
-        margin-top: -181px;
-       
-        
+    padding-left: 584px;
+    margin-top: -181px;
+
+
 }
-footer{
+
+footer {
     background-color: black;
     color: white;
     text-align: center;

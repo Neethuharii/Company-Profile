@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.navbar{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 30px;
+}
+a{
+   text-decoration: none;
+    color: white; 
+    font-style: Helvetica;
+}
+
+
+
+
+
+.Table_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        border: 2px solid rgb(226, 225, 225);
+        border-radius: 8px;
+        margin: 21px;
+        background-color: rgb(182, 181, 181)
+     }
+.Table1{
+    padding: 20px;
+    border-spacing: 20px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(226, 221, 221)
+}
+.Table1 H3{
+    padding-bottom: 20px;
+}
+.Table2{
+    padding: 20px;
+    border-spacing: 20px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(226, 221, 221)
+
+
+}
+.Table3{
+    padding: 23px;
+    border-spacing: 20px;
+    border: 2px solid rgb(207, 207, 207);
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(226, 221, 221)
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 23px 0;
+ 
+
+}
