@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livares</title>
+    <link rel="stylesheet" href=contact.css>
+</head>
+<body>
+   <div class="navbar">
+    
+        <img src="../Images/livares_logo.jpg" alt="Company Logo">
+
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../About-us/about.html">About</a></li>
+        <li><a href="../Sales/sales.html">Sales</a></li>
+        
+        <li><a href="#">Contact</a></li>
+      </ul>  
+</div>
+      
+<!-- Contact form -->
+
+<div class="form-container">
+  <form >
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Country ">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit"  onclick="formAlert()">
+
+  </form>
+
+</div>
+
+<style>
+function formAlert(){
+  alert("form is submitted")
+}
+</style>
+  </body>
