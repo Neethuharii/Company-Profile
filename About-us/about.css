@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.navbar{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 30px;
+}
+a{
+   text-decoration: none;
+    color: white; 
+    font-style: Helvetica;
+}
+header{
+    color: black;
+    font-size: 18px;
+   text-align: center;
+ padding-top: 23px;
+}
+section h2{
+    padding: 28px;
+    font-size: 27px;
+}
+
+section p{
+   margin-top: -7px;
+   margin-left: 28px;
+   color: rgb(134, 123, 123);
+}
+
+li{
+    margin-left: 51px;
+    margin: 5px 50px;
+    color: rgb(134, 123, 123);
+}
+
+section h4{
+    margin-left: 28px;
+    font-size: 17px;
+}
+.achievement p{
+    margin-left: 20px;
+    padding: 20px;
+}
