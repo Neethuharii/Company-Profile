@@ -23,7 +23,8 @@ a{
     font-style: Helvetica;
 }
 .background_gallery{
-
+    display: flex;
+    justify-content: center;
     height: 80%;
     width: 100%;
     size: 100%;
@@ -49,30 +50,54 @@ a{
 .card-container{
     display: flex;
     justify-content: space-between;
-  
-}
-.card{
-   
-   
+    padding-left: 85px;
 
 }
+.card{
+  width: 398px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+ 
+
+  
+}
 .card img{
-width: 300px;
+width: 268px;
 height:200px;
 margin: 20px;
 }
-.card-description {
-    margin-top: 10px;
-    
-    
-    
-      
+.card-description h1 {
+    margin-top: -5px;
+    padding-left: 64px;
+    font-style: Helvetica;
+    font-size: 20px;
 }
-.video{
-  
-    width: 500px;
-    height: 300px;
 
+.card-description p{
+    margin-top: 8px;
+    color: grey;
+   
+}
 
+.know-us{
+    margin-top: 37px;
+    padding-left: 77px;
+}
+.know-us p{
+    margin-top: 20px;
+    line-height: 24px;
+
+}
+
+.video {
+        padding-left: 584px;
+        margin-top: -181px;
+        
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 23px 0;
 
 }
