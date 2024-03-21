@@ -59,3 +59,23 @@ section h4{
    margin: 20px;
    background-color: rgb(209, 205, 205)
 }
+
+.sidebar_about{
+    display: flex;
+
+}
+.sidebar{
+    background-color: rgb(56, 54, 54);
+    height: 866px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 143px;
+
+}
+.sidebar ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 30px;
+}
