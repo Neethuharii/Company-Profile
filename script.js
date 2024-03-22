@@ -4,7 +4,7 @@
  =============================================*/
 function scrollup(){
     document.documentElement.scrollTo({
-        top:800,
+        top:10,
         behavior:"smooth"
     })
 }
