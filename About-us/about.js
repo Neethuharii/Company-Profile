@@ -30,61 +30,39 @@ function fadeIn(element) {
       }
     }, 50); // Adjust the interval for smoothness
   }
+
+/**==================================================
+ * 
+ * @param {} linkId 
+ * @param {*} sectionId 
+ * Function to handle click events on section links
+ ======================================================*/
+function handleSectionLinkClick(linkId, sectionId) {
+    document.getElementById(linkId).addEventListener("click", function(event) {
+      event.preventDefault(); // Prevent the default behavior of the link
+      //Get the current visible section
+      var currentSection = document.querySelector(".section:not([style*='none'])");
+      var targetSection = document.getElementById(sectionId);
+      if (currentSection !== targetSection) {
+        fadeOut(currentSection);
+        setTimeout(function() {
+          currentSection.style.display = "none";
+          fadeIn(targetSection);
+          targetSection.style.display = "block";
+        }, 500); // Adjust timing as needed
+      }
+    });
+  }
   
-// =================== Add event listeners to the links========================
-  document.getElementById("history-link").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-    var currentSection = document.querySelector(".section:not([style*='none'])");
-    var historySection = document.getElementById("section1");
-    if (currentSection !== historySection) {
-      fadeOut(currentSection);
-      setTimeout(function() {
-        currentSection.style.display = "none";
-        fadeIn(historySection);
-        historySection.style.display = "block";
-      }, 500); // Adjust timing as needed
-    }
-  });
-  
-  document.getElementById("values-link").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-    var currentSection = document.querySelector(".section:not([style*='none'])");
-    var valuesSection = document.getElementById("section2");
-    if (currentSection !== valuesSection) {
-      fadeOut(currentSection);
-      setTimeout(function() {
-        currentSection.style.display = "none";
-        fadeIn(valuesSection);
-        valuesSection.style.display = "block";
-      }, 500); // Adjust timing as needed
-    }
-  });
-  
-  document.getElementById("goals-link").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-    var currentSection = document.querySelector(".section:not([style*='none'])");
-    var goalsSection = document.getElementById("section3");
-    if (currentSection !== goalsSection) {
-      fadeOut(currentSection);
-      setTimeout(function() {
-        currentSection.style.display = "none";
-        fadeIn(goalsSection);
-        goalsSection.style.display = "block";
-      }, 500); // Adjust timing as needed
-    }
-  });
-  
-  document.getElementById("achievements-link").addEventListener("click", function(event) {
-    event.preventDefault(); // Prevent the default behavior of the link
-    var currentSection = document.querySelector(".section:not([style*='none'])");
-    var achievementsSection = document.getElementById("achievements");
-    if (currentSection !== achievementsSection) {
-      fadeOut(currentSection);
-      setTimeout(function() {
-        currentSection.style.display = "none";
-        fadeIn(achievementsSection);
-        achievementsSection.style.display = "block";
-      }, 500); // Adjust timing as needed
-    }
-  });
+  // Call the function for each link
+  handleSectionLinkClick("history-link", "section1");
+  handleSectionLinkClick("values-link", "section2");
+  handleSectionLinkClick("goals-link", "section3");
+  handleSectionLinkClick("achievements-link", "section4");
+
+  // Show the first section initially and other section section hidden
+  document.getElementById("section1").style.display = "block";
+  document.getElementById("section2").style.display = "none";
+  document.getElementById("section3").style.display = "none";
+  document.getElementById("section4").style.display = "none";
   

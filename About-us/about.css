@@ -28,6 +28,9 @@ header{
    text-align: center;
  padding-top: 23px;
 }
+.section{
+    margin: 20px;
+}
 section h2{
     padding: 28px;
     font-size: 27px;
@@ -51,13 +54,13 @@ section h4{
 }
 .achievement p{
     margin-left: 20px;
-    padding: 20px;
+    padding: 20px; 
 }
-.achievement{
-   border: 2px solid rgb(216, 214, 214);
-   border-radius: 15px;
-   margin: 20px;
-   background-color: rgb(209, 205, 205)
+#section4{
+    border: 8px solid rgb(216, 214, 214);
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rgb(209, 205, 205);
 }
 
 .sidebar_about{
@@ -69,8 +72,7 @@ section h4{
     height: 866px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-    width: 143px;
+    width: 183px;
 
 }
 .sidebar ul li{

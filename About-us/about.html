@@ -1,51 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Livares</title>
   <link rel="stylesheet" href=about.css>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-
 <body>
+  <!--------------------------Navbar--------------------------- -->
   <div class="navbar">
-
-    <img src="../Images/livares_logo.jpg" alt="Company Logo">
-
+    <img src="../Images/livares_logo.jpg" style="width: 160px;" alt="Company Logo">
     <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="../Sales/sales.html">Sales</a></li>
-
-      <li><a href="../Contact/contact.html">Contact</a></li>
+      <li><a href="../index.html" style="color: white; text-decoration: none;">Home</a></li>
+      <li><a href="#"  style="color: white; text-decoration: none;">About</a></li>
+      <li><a href="../Sales/sales.html"  style="color: white; text-decoration: none;">Sales</a></li>
+      <li><a href="../Product/product.html"  style="color: white; text-decoration: none;">Products</a></li>
+      <li><a href="../Contact/contact.html"  style="color: white; text-decoration: none;">Contact</a></li>
     </ul>
   </div>
-
+  <!---------------------- Side Bar ------------------------->
   <div class="sidebar_about">
-    <div class="sidebar">
-      <ul>
-        <li><a href="#" id="history-link" class="active">History</a></li>
-        <li><a href="#" id="values-link">Values</a></li>
-        <li><a href="#" id="goals-link">Goals</a></li>
-        <li><a href="#" id="achievements-link">Achievements</a></li>
+    <div class="sidebar"  >
+      <ul >
+        <li><a href="#" id="history-link" class="" style="text-decoration: none; color: aliceblue;" >History</a></li>
+        <li><a href="#" id="values-link" style="text-decoration: none; color: aliceblue;" >Values</a></li>
+        <li><a href="#" id="goals-link" style="text-decoration: none; color: aliceblue;" >Goals</a></li>
+        <li><a href="#" id="achievements-link" style="text-decoration: none; color: aliceblue;" >Achievements</a></li>
       </ul>
-
-
     </div>
-    <!-- About  -->
-
+    
+    <!------------------- About ---------------------->
     <div class="about-us">
-
-      <header>
-
-        <h1>About our Company</h1>
-
-      </header>
+      <h1 style="margin: 17px;">About our Company</h1>
+        
 
       <main>
         <div id="section1" class="section">
-      
           <h2>History</h2>
           <p>Founded in 2012, Our Company emerged with a resolute dedication to
             software development, setting its sights on innovation and technological advancement.
@@ -56,52 +47,40 @@
             what is possible in the realm of software development. As we look towards the future, our
             unwavering dedication remains unwavering, driving us to continue shaping the digital landscape
             with ingenuity and vision.
-
-
-
-
-
           </p>
-        
-</div>
-<div id="section2" class="section">
-      
+        </div>
+        <div id="section2" class="section" style="">
           <h2>Values</h2>
           <li>Integrity</li>
           <li>Inovation</li>
           <li>Customer Satisfaction</li>
           <li>Team Work</li>
-        
-</div>
-<div id="section3" id="section">
-       
+        </div>
+
+        <div id="section3" class="section">
           <h2>Goals</h2>
           <p>To become a global firm, create more employment,
             reputed for making the world a better place through innovation
             and unflappable work ethic. We have dedicated ourselves to the cause of creating quality software and
             providing
             world class services to our customers.</p>
-      
-</div>
-        <section class="achievement">
-          <h2>Achievement</h1>
+        </div>
+
+        <div id="section4" class="section">
+          <h2>Achievements</h1>
             <h4>Year 2012: Best Software Solution in Kerala </h4>
             <p>We got an achievement which is best software solution in kerala</p>
-
             <h4>Year 2015: We got an unicorn startup</h4>
             <p>Our Company valuation was increase and we turned as an unicorn company</p>
-
             <h4>Year 2018: Higher Turnover in financial year </h4>
             <p>We Raised our turnover from 100 Million $ to 1000 Million $</p>
-
             <h4>Year 2021: Company which had most client and projects</h4>
-
             <p>Our company ghad the most client and project in the past 8 year in India</p>
-
-        </section>
-
+        </h2>
+        </div>
       </main>
     </div>
   </div>
   <script src="about.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
