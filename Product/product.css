@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.navbar {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-style: Helvetica;
+}
+.logo{
+    width: 100px;
+     height: 70;
+}

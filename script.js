@@ -1,7 +1,10 @@
 
+/**============================================
+ * Function Used to ScrollUp
+ =============================================*/
 function scrollup(){
     document.documentElement.scrollTo({
-        top:0,
+        top:800,
         behavior:"smooth"
     })
 }
