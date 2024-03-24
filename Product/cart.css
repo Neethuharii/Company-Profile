@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.navbar{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px 30px;
+}
+a{
+   text-decoration: none;
+    color: white; 
+    font-style: Helvetica;
+}
+#placeOrderBtn{
+    background-color: rgb(234, 197, 129);
+    width: 152px;
+    height: 46px;
+    margin: 17px
+
+}
+#cart-items{
+    display: flex;
+  
+    margin: 32px;
+}
+#total-price{
+    font-size: 20px;
+    margin: 20px;
+}

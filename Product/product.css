@@ -78,3 +78,33 @@ a {
 .btn btn-primary{
 left: 30px;
 }
+
+.icon-cart{
+    padding: 22px;
+    margin-left: 459px;
+ color: white;
+}
+
+.icon-cart span{
+    background-color:  black;
+    color: wheat;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    top: 20px;
+
+
+}
+.add-to-cart-btn{
+    background-color: rgb(135, 135, 233);
+    margin-left: 56px;
+    height: 32px;
+    width: 111px
+}
+.save-cart-btn{
+      
+    
+       
+        margin: 19px;
+        color: white;
+}
